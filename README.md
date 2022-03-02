@@ -31,6 +31,7 @@ Por otra parte, el pastelero también puede visualizar los pedidos que se genera
 
 ### Diseño UI
 
+Mobile (client | baker) & Desktop (client | baker) : <a href="https://www.figma.com/file/OKewQk9x4F32fhVFagzddz/Cherry-notes?node-id=0%3A1">Figma UI design</a> <br>
 
 ### Maquetación web
 
