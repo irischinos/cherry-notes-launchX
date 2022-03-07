@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway:wght@200;300&display=swap');
+
+:root {
+  --titles: 'Playfair Display', serif;
+  --text: 'Raleway', sans-serif;
+}
+
+/* -------- INDEX -------- */
+.img-login {
+  cursor: pointer;
+}
+.img-login:hover {
+  filter: grayscale(0.9);
+}
+
+/* -------- Index cliente -------- */
+
+.cherry-logo:hover {
+  filter: grayscale(0.5);
+  cursor: pointer;
+}
+.title-page, .subtitle-menu, .title-pedidos {
+  font-family: var(--titles);
+}
+.contact-text {
+  font-family: var(--text);
+  padding-top: 5em;
+}
+.title-page {
+  padding-top: 2em;
+}
+.subtitle-menu {
+  padding: 2em;
+}
+
+nav, .nosotros-text, .pedidos-text {
+  font-family: var(--text);
+}
+.nosotros-text {
+  line-height: 2;
+}
+
+/* -------- Pedidos -------- */
+
+.subtitle-menu2 {
+  padding: 1em;
+}
+
+/* -------- Index baker (pastelero) -------- */
