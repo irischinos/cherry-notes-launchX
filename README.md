@@ -36,4 +36,4 @@ Mobile (client | baker) & Desktop (client | baker) : <a href="https://www.figma.
 ### Maquetación web
 
 Tecnologías: HTML5, CSS3, Bootstrap5.<br><br>
-Github pages: <a href="">aquí</a>.
+Github pages: <a href="https://irischinos.github.io/cherry-notes-launchX/">aquí</a>.
