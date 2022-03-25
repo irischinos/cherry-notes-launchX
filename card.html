@@ -42,55 +42,34 @@
       </div>
 
       <div class="row">
-        <div class="col-12 subtitle-menu2">
-          <br>
-          <h2 class="text-center title-page" id="pedidos">Pedidos</h2>
-          <p class="text-center"><i>Personaliza tu pastel</i></p>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-4 text-center">
-          <h5 class="title-pedidos">Pastel Chopin</h5>
-          <img src="assets/img/pastel2.jpg" class="card-img-top img-thumbnail img-fluid" alt="pastel 2" style="width: 18rem;">
-          <p>Pastel de blueberries y crema de leche con relleno de betún cremoso.</p>
-        </div>
-        <div class="col-4 pedidos-text">
-          <h5 class="title-pedidos">Sabor</h5>
-          <input type="radio" name="sabor" >  Elegir el predeterminado <br>
-          <input type="radio" name="sabor" >  Elegir varios sabores <br><br>
-
-          <h5 class="title-pedidos">Elige los demás sabores</h5>
-          <input type="checkbox">  Chocolate <br>
-          <input type="checkbox">  Blueberries <br>
-          <input type="checkbox">  Tres leches <br>
-          <input type="checkbox">  Frutos rojos <br>
-          <input type="checkbox">  Durazno <br>
-          <input type="checkbox">  Moka <br><br>
-
-          <h5 class="title-pedidos">Agrega toppings por $50.00 más (opcional)</h5>
-          <input type="checkbox">  Fresas <br>
-          <input type="checkbox">  Nuez <br>
-          <input type="checkbox">  Betún <br>
-          <input type="checkbox">  Trozos de chocolate <br>
-          <input type="checkbox">  Zarzamoras <br><br>
-        </div>
-
-        <div class="col-4 pedidos-text">
-          <h5 class="title-pedidos">Mensaje en el pastel (opcional)</h5> <br>
-          <h6><b>Por $50.00 más:</b></h6>
-          <input type="checkbox">  Con chocolate <br>
-          <input type="checkbox">  Mermelada de fresa <br>
-          <input type="checkbox">  Mermelada de blueberries <br><br>
-          <h6><b>Por $100.00 más:</b></h6>
-          <input type="checkbox">  Impresión comestible <br>
-          <hr>
-          <h5 class="title-pedidos"><b>TOTAL A PAGAR: $600.00</b></h5> <br>
-          <div class="btn-group" role="group" aria-label="Basic example">
-            <a href="form.html" class="btn btn-primary">CONFIRMAR</a>
-          </div>
-        </div>
-        
+        <div class="col-12 pl-5 pr-5"><br><br>
+          <h2 class="text-center title-page" id="pedidos">Introduce tus datos bancarios</h2><br><br>
+            <div class="row">
+              <div class="col-6">
+                <label for="text" class="nosotros-text"><b>Nombre del titular</b></label> <br>
+                <input class="card-datos-lg nosotros-text" type="text" name="nameCard" id="nameCard" placeholder="Como aparece en la tarjeta"><br><br><br>
+                <label for="number" class="nosotros-text"><b>Fecha de expiración</b></label> <br>
+                <div class="row">
+                  <div class="col-4">
+                    <label for="number" class="nosotros-text mr-3">Mes</label>
+                    <input class="card-datos-sm nosotros-text" type="number" name="dateExp" id="dateExp" placeholder="01">
+                  </div>
+                  <div class="col-8">
+                    <label for="number" class="nosotros-text mr-3">Año</label>
+                    <input class="card-datos-sm nosotros-text" type="number" name="dateExp" id="dateExp" placeholder="22">
+                  </div>
+                </div>
+              </div>
+              <div class="col-6">
+                <label for="text" class="nosotros-text"><b>Número de tarjeta</b></label> <br>
+                <input class="card-datos-lg nosotros-text" type="number" name="numCard" id="numCard" placeholder="XXXX-XXXX-XXXX-XXXX"><br><br><br>
+                <label for="text" class="nosotros-text"><b>Código de seguridad CVV</b></label> <br>
+                <input class="card-datos-sm nosotros-text" type="number" name="codSeg" id="codSeg" placeholder="3 dígitos"><br><br><br>
+                <div class="btn-group" role="group" aria-label="Basic example">
+                  <a href="payment.html" class="btn btn-primary nosotros-text payment-btn">PAGAR</a>
+                </div>
+              </div>
+            </div>
       </div>
 
     </div> <!-- / container fluid-->
@@ -102,3 +81,4 @@
     
   </body>
 </html>
+

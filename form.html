@@ -42,55 +42,53 @@
       </div>
 
       <div class="row">
-        <div class="col-12 subtitle-menu2">
-          <br>
-          <h2 class="text-center title-page" id="pedidos">Pedidos</h2>
-          <p class="text-center"><i>Personaliza tu pastel</i></p>
+        <div class="col-12 subtitle-menu2"><br>
+          <h2 class="text-center title-page" id="pedidos">Completa el formulario</h2>
+          <p class="text-center"><i>con tus datos</i></p>
         </div>
       </div>
 
       <div class="row">
-        <div class="col-4 text-center">
-          <h5 class="title-pedidos">Pastel Chopin</h5>
-          <img src="assets/img/pastel2.jpg" class="card-img-top img-thumbnail img-fluid" alt="pastel 2" style="width: 18rem;">
-          <p>Pastel de blueberries y crema de leche con relleno de betún cremoso.</p>
+        <div class="col-4-lg col-md-4 col-sm-12 col-xs-12"><br><br>
+          <label for="text" class="nosotros-text">Nombre</label> <br>
+          <input class="form-datos nosotros-text" type="text" name="name" id="name" placeholder="Nombre completo"><br>
+          <label for="number" class="nosotros-text">Teléfono</label> <br>
+          <input class="form-datos nosotros-text" type="number" name="phone" id="phone" placeholder="Ej: (55) 12 34 56 78"> <br>
+          <label for="email" class="nosotros-text">Correo electrónico</label> <br>
+          <input class="form-datos nosotros-text" type="email" name="email" id="email" placeholder="Ej: yolis@gmail.com">
         </div>
-        <div class="col-4 pedidos-text">
-          <h5 class="title-pedidos">Sabor</h5>
-          <input type="radio" name="sabor" >  Elegir el predeterminado <br>
-          <input type="radio" name="sabor" >  Elegir varios sabores <br><br>
-
-          <h5 class="title-pedidos">Elige los demás sabores</h5>
-          <input type="checkbox">  Chocolate <br>
-          <input type="checkbox">  Blueberries <br>
-          <input type="checkbox">  Tres leches <br>
-          <input type="checkbox">  Frutos rojos <br>
-          <input type="checkbox">  Durazno <br>
-          <input type="checkbox">  Moka <br><br>
-
-          <h5 class="title-pedidos">Agrega toppings por $50.00 más (opcional)</h5>
-          <input type="checkbox">  Fresas <br>
-          <input type="checkbox">  Nuez <br>
-          <input type="checkbox">  Betún <br>
-          <input type="checkbox">  Trozos de chocolate <br>
-          <input type="checkbox">  Zarzamoras <br><br>
-        </div>
-
-        <div class="col-4 pedidos-text">
-          <h5 class="title-pedidos">Mensaje en el pastel (opcional)</h5> <br>
-          <h6><b>Por $50.00 más:</b></h6>
-          <input type="checkbox">  Con chocolate <br>
-          <input type="checkbox">  Mermelada de fresa <br>
-          <input type="checkbox">  Mermelada de blueberries <br><br>
-          <h6><b>Por $100.00 más:</b></h6>
-          <input type="checkbox">  Impresión comestible <br>
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12"><br><br><br>
+          <h5 class="title-pedidos">Detalles tu compra:</h5> <br>
+          <div class="nosotros-text"><b>Pastel Chopin</b></div>
           <hr>
-          <h5 class="title-pedidos"><b>TOTAL A PAGAR: $600.00</b></h5> <br>
-          <div class="btn-group" role="group" aria-label="Basic example">
-            <a href="form.html" class="btn btn-primary">CONFIRMAR</a>
+          <div class="row">
+            <div class="col-6">
+              <div class="nosotros-text">Sabores:</div>
+              <ul>
+                <li class="nosotros-text">Chocolate</li>
+                <li class="nosotros-text">Blueberries</li>
+              </ul>
+            </div>
+            <div class="col-6">
+              <div class="nosotros-text">Toppings:</div>
+              <ul>
+                <li class="nosotros-text">Fresas</li>
+                <li class="nosotros-text">Betún</li>
+                <li class="nosotros-text">Zarzamoras</li>
+              </ul>
+            </div>
           </div>
         </div>
-        
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12"><br><br><br>
+          <div class="nosotros-text">Mensaje:</div>
+          <div class="nosotros-text">N/A</div>
+          <div class="nosotros-text">Impresión comestible</div>
+          <div class="nosotros-text">N/A</div> <br><br><br>
+          <h5 class="title-pedidos"><b>TOTAL A PAGAR: $600.00</b></h5> <br>
+          <div class="btn-group ml-5" role="group" aria-label="Basic example">
+            <a href="card.html" class="btn btn-primary nosotros-text">PAGAR</a>
+          </div><br><br>
+        </div>
       </div>
 
     </div> <!-- / container fluid-->

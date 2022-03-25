@@ -5,15 +5,31 @@
   --titles: 'Playfair Display', serif;
   --text: 'Raleway', sans-serif;
 }
+/* Barra de scroll */
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(80, 6, 28);        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(235, 140, 211);    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+}
 
 /* -------- INDEX -------- */
 .img-login {
   cursor: pointer;
 }
 .img-login:hover {
-  filter: grayscale(0.9);
+  width: 45%;
+  transition-duration: 6s;
 }
-
+.navbar {
+  background-color: white;
+}
 /* -------- Index cliente -------- */
 
 .cherry-logo:hover {
@@ -34,7 +50,7 @@
   padding: 2em;
 }
 
-nav, .nosotros-text, .pedidos-text {
+nav, .nosotros-text, .pedidos-text, .address-text, .inicio-text {
   font-family: var(--text);
 }
 .nosotros-text {
@@ -47,4 +63,108 @@ nav, .nosotros-text, .pedidos-text {
   padding: 1em;
 }
 
-/* -------- Index baker (pastelero) -------- */
+
+/* -------- Form cliente -------- */
+.form-datos {
+  width: 350px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+/* -------- Payment -------- */
+.payment {
+  width: 30%;
+  margin-top: 200px;
+}
+.payment-btn {
+  margin-left: 25em;
+}
+.card-datos-lg {
+  width: 500px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+.card-datos-sm {
+  width: 100px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+input {
+  outline: none;
+}
+::placeholder {
+  font-size: 0.85em;
+}
+
+/* Posiciones Titles */
+.white-pgh {
+  color: white;
+  font-size: 2em;
+}
+
+/* Responsive Form */
+@media (max-width: 600px) {
+  .form-datos {
+    width: 500px;
+  }
+}
+
+
+/* Responsive Card */
+@media (max-width: 600px) {
+  .payment-btn {
+    margin-left: 0em;
+  }
+  .card-datos-lg {
+    width: 150px;
+    border: none;
+    border-bottom: 1px solid black;
+  }
+  .card-datos-sm {
+    width: 100px;
+    border: none;
+    border-bottom: 1px solid black;
+  }
+}
+
+/* User inicio sesión */
+.container-user {
+  margin-left: 480px;
+}
+.img-user {
+  margin-left: 70px;
+}
+.btn-baker {
+  margin-left: 8em;
+}
+
+/* Responsive User (baker) */
+@media (max-width: 600px) {
+  .container-user {
+    margin-left: 80px;
+  }
+  .img-user {
+    margin-left: 50px;
+  }
+  .form-datos {
+    width: 300px;
+  }
+}
+
+/* Pedidos (indexB)(baker)*/
+.btn-gral {
+  border: transparent;
+  border-radius: 10px;
+}
+.btn-delivered {
+  background-color: green;
+  color: lightgrey;
+}
+.btn-pending {
+  background-color: rgb(180, 22, 22);
+  color: lightgrey;
+}
+.btn-ready {
+  background-color: rgb(209, 230, 26);
+  color: black;
+}
